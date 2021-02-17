@@ -23,7 +23,6 @@
 		5595D98A25DD58B800EF8116 /* FetcherType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595D98925DD58B800EF8116 /* FetcherType.swift */; };
 		5595D98F25DD58DC00EF8116 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595D98E25DD58DC00EF8116 /* EndPoint.swift */; };
 		5595D99425DD594000EF8116 /* Obfuscator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595D99325DD594000EF8116 /* Obfuscator.swift */; };
-		5595D99925DD597300EF8116 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595D99825DD597300EF8116 /* Keys.swift */; };
 		5595D9B225DD5AB400EF8116 /* ListingEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595D9B125DD5AB400EF8116 /* ListingEndPoints.swift */; };
 		5595D9B725DD5B3700EF8116 /* BaseServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595D9B625DD5B3700EF8116 /* BaseServices.swift */; };
 		5595D9BC25DD5B6F00EF8116 /* ListingServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595D9BB25DD5B6F00EF8116 /* ListingServices.swift */; };
@@ -119,7 +118,6 @@
 		5595D98925DD58B800EF8116 /* FetcherType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetcherType.swift; sourceTree = "<group>"; };
 		5595D98E25DD58DC00EF8116 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 		5595D99325DD594000EF8116 /* Obfuscator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obfuscator.swift; sourceTree = "<group>"; };
-		5595D99825DD597300EF8116 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		5595D9B125DD5AB400EF8116 /* ListingEndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingEndPoints.swift; sourceTree = "<group>"; };
 		5595D9B625DD5B3700EF8116 /* BaseServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseServices.swift; sourceTree = "<group>"; };
 		5595D9BB25DD5B6F00EF8116 /* ListingServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingServices.swift; sourceTree = "<group>"; };
@@ -375,7 +373,6 @@
 				5595D94825DD50F500EF8116 /* Theme.swift */,
 				5595D95025DD514200EF8116 /* Constants.swift */,
 				5595D95525DD520800EF8116 /* AppImages.swift */,
-				5595D99825DD597300EF8116 /* Keys.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -950,7 +947,6 @@
 				5595DA8025DD764F00EF8116 /* ItemsListViewController.swift in Sources */,
 				5595DA9725DD7B2E00EF8116 /* BaseNavigationController.swift in Sources */,
 				5595DA8525DD767400EF8116 /* ItemsListViewModel.swift in Sources */,
-				5595D99925DD597300EF8116 /* Keys.swift in Sources */,
 				5595DAB125DD8F1400EF8116 /* CardView.swift in Sources */,
 				5595D9DC25DD5FD000EF8116 /* Assembler.swift in Sources */,
 			);

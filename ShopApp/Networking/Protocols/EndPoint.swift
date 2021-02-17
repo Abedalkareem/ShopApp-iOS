@@ -47,8 +47,6 @@ extension EndPoint {
     
     urlRequest.httpMethod = method.rawValue
     urlRequest.setValue("application/json", forHTTPHeaderField: "Content-Type")
-    let apiKey = Obfuscator.deObfuscate(Keys.apiKey)
-    urlRequest.setValue(apiKey, forHTTPHeaderField: "Authorization")
 
     if method != .get {
       urlRequest.httpBody = try? JSONSerialization.data(withJSONObject: parameters, options: [])
