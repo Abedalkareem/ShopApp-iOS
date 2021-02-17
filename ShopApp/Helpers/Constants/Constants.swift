@@ -19,9 +19,9 @@ enum Constants {
     static var somethingWentWrong = NSError(domain: "shopapp",
                                             code: -990,
                                             userInfo: [NSLocalizedDescriptionKey:
-                                              "generic_something_went_wrong_msg"])
+                                                        "generic_something_went_wrong_msg".localized])
     static var jsonSerializingFailure = NSError(domain: "shopapp", code: -991, userInfo: [NSLocalizedDescriptionKey:
-                                                                                    "json_serializing_failure"])
+                                                                                            "json_serializing_failure".localized])
   }
   
   enum strings {

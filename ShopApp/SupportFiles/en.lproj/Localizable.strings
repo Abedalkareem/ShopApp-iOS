@@ -11,8 +11,17 @@
 "generic_something_went_wrong_msg" = "Something went wrong";
 "json_serializing_failure" = "Serializing failure";
 
+// MARK: - Common
+
+"common_close" = "Close";
+"common_not_implemented_yet" = "Not implemented yet";
+
 // MARK: - Intro screen
 
 "intro_screen_button" = "Shop now !";
 "intro_screen_title" = "Shop App";
 "intro_screen_details" = "Find properties, cars, jobs or items for sale in any city.";
+
+// MARK: - Items list screen
+
+"items_list_screen_title" = "Things to buy";

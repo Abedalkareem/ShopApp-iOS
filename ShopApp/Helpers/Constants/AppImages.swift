@@ -15,4 +15,8 @@ enum Images: String {
   case laptop
   case keyboard
   case ps4
+  case filter
+
+  case love
+  case cry
 }

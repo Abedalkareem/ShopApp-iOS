@@ -60,6 +60,7 @@ class Fetcher: FetcherType {
           let item = try decoder.decode(T.self, from: data)
           observer.on(.next(item))
         } catch {
+          print(error)
           observer.on(.error(error))
         }
       }

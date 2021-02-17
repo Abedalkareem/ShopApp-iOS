@@ -5,7 +5,7 @@
 //  Created by abedalkareem omreyh on 17/02/2021.
 //
 
-import UIKit
+import RxSwift
 
 extension UITableView {
   /// register the cell to the table view by passing the metatype
@@ -36,5 +36,16 @@ protocol NibLoadableView {
 extension UITableViewCell: NibLoadableView {
   static var nibName: String {
     return String(describing: self)
+  }
+}
+
+extension Reactive where Base: UITableView {
+  func items<Sequence: Swift.Sequence, Cell: UITableViewCell, Source: ObservableType>
+    (cellType: Cell.Type = Cell.self)
+    -> (_ source: Source)
+    -> (_ configureCell: @escaping (Int, Sequence.Element, Cell) -> Void)
+    -> Disposable
+    where Source.Element == Sequence {
+      return items(cellIdentifier: cellType.nibName, cellType: cellType)
   }
 }

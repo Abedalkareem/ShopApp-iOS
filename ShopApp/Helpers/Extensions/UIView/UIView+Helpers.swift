@@ -20,7 +20,7 @@ extension UIView {
   ///
   /// Round the edges of the view with `radius`.
   ///
-  func roundedCorner(radius: CGFloat = 24, mask: Bool = true) {
+  func roundedCorner(radius: CGFloat = 30, mask: Bool = true) {
     layer.cornerRadius = radius
     layer.masksToBounds = mask
   }
@@ -39,9 +39,9 @@ extension UIView {
   /// Add shadow and make the corner rounded for the view.
   /// - Parameter isWithBackground: To determine if the view should have a background, the default is `true`.
   /// - Parameter isWithRoundedCorner: To determine if the view should have a rounded corners `true`.
-  /// - Parameter cornerRadius: The corner radius, the default is `11`.
+  /// - Parameter cornerRadius: The corner radius, the default is `30`.
   ///
-  func makeCardView(isWithBackground: Bool = true, isWithRoundedCorner: Bool = true, cornerRadius: CGFloat = 11) {
+  func makeCardView(isWithBackground: Bool = true, isWithRoundedCorner: Bool = true, cornerRadius: CGFloat = 30) {
     if isWithBackground {
       backgroundColor = .white
     }
@@ -53,7 +53,7 @@ extension UIView {
     layer.masksToBounds = false
     layer.shadowColor = UIColor.black.cgColor
     layer.shadowOffset = CGSize(width: 0, height: 0)
-    layer.shadowOpacity = 0.3
+    layer.shadowOpacity = 0.2
     layer.shadowPath = shadowPath.cgPath
   }
   

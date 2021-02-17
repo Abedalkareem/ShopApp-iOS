@@ -29,7 +29,9 @@ class IntroViewController: BaseViewController {
   // MARK: -
 
   private func showMainController() {
-    
+    let controller = ItemsListViewController.instance()
+    setRootViewController(viewController: BaseNavigationController(rootViewController: controller),
+                          animated: true)
   }
   
   // MARK: - IBActions
