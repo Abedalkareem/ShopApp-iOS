@@ -9,7 +9,8 @@ import Foundation
 
 enum Images: String {
   case shoppingCart = "shopping_cart"
-  
+  case back
+
   case streamingTv = "streaming_tv"
   case smartWatch = "smart_watch"
   case laptop

@@ -27,14 +27,14 @@
                                     <constraint firstAttribute="width" secondItem="349-mS-tWM" secondAttribute="height" id="w8Q-pm-PQQ"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDo-y8-Z2x" customClass="AppLabel" customModule="ShopApp" customModuleProvider="target">
-                                <rect key="frame" x="16" y="296" width="48.5" height="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDo-y8-Z2x" customClass="AppLabel" customModule="ShopApp" customModuleProvider="target">
+                                <rect key="frame" x="16" y="296" width="205" height="26"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FIr-lz-aor" customClass="AppLabel" customModule="ShopApp" customModuleProvider="target">
-                                <rect key="frame" x="16" y="330" width="48.5" height="21"/>
+                                <rect key="frame" x="16" y="330" width="205" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -49,11 +49,13 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="u9Z-vZ-XeC" firstAttribute="leading" secondItem="vDo-y8-Z2x" secondAttribute="trailing" constant="16" id="2iC-oL-zXi"/>
                             <constraint firstAttribute="bottom" secondItem="FIr-lz-aor" secondAttribute="bottom" constant="20" id="7gM-AH-tFM"/>
                             <constraint firstAttribute="trailing" secondItem="349-mS-tWM" secondAttribute="trailing" constant="10" id="B1w-Er-6Jc"/>
                             <constraint firstItem="349-mS-tWM" firstAttribute="leading" secondItem="VzS-Oq-vbL" secondAttribute="leading" constant="10" id="Cm7-Ld-4Zl"/>
                             <constraint firstItem="FIr-lz-aor" firstAttribute="top" secondItem="vDo-y8-Z2x" secondAttribute="bottom" constant="8" symbolic="YES" id="DPl-El-1fg"/>
                             <constraint firstItem="vDo-y8-Z2x" firstAttribute="top" secondItem="349-mS-tWM" secondAttribute="bottom" constant="16" id="Fkt-mA-I4P"/>
+                            <constraint firstItem="u9Z-vZ-XeC" firstAttribute="leading" secondItem="FIr-lz-aor" secondAttribute="trailing" constant="16" id="Fsd-pW-53i"/>
                             <constraint firstItem="vDo-y8-Z2x" firstAttribute="leading" secondItem="VzS-Oq-vbL" secondAttribute="leading" constant="16" id="LOu-JG-ZrE"/>
                             <constraint firstItem="FIr-lz-aor" firstAttribute="leading" secondItem="VzS-Oq-vbL" secondAttribute="leading" constant="16" id="NfM-Zc-Eay"/>
                             <constraint firstItem="349-mS-tWM" firstAttribute="top" secondItem="VzS-Oq-vbL" secondAttribute="top" constant="12" id="XL3-Ow-GQR"/>

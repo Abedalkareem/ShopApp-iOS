@@ -25,3 +25,8 @@
 // MARK: - Items list screen
 
 "items_list_screen_title" = "Things to buy";
+
+// MARK: - Item details screen
+
+"item_details_screen_liked" = "Thank you for liking";
+"item_details_screen_added_to_cart" = "Added to cart!";

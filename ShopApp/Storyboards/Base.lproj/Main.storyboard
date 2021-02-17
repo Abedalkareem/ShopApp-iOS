@@ -39,7 +39,75 @@
             </objects>
             <point key="canvasLocation" x="139" y="88"/>
         </scene>
+        <!--Item Details View Controller-->
+        <scene sceneID="5DU-5f-4oh">
+            <objects>
+                <viewController storyboardIdentifier="ItemDetailsViewController" id="wmI-IL-y8M" customClass="ItemDetailsViewController" customModule="ShopApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fO8-rd-Yc4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OyA-PR-dqg">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x5J-S1-8oZ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--- ---- ---" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Za9-Sy-NH9" customClass="AppLabel" customModule="ShopApp" customModuleProvider="target">
+                                        <rect key="frame" x="135.5" y="430.5" width="143" height="35"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="29"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="----" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A89-XY-SPZ" customClass="AppLabel" customModule="ShopApp" customModuleProvider="target">
+                                        <rect key="frame" x="179.5" y="485.5" width="55.5" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="0.27964317877561046" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Za9-Sy-NH9" firstAttribute="centerX" secondItem="x5J-S1-8oZ" secondAttribute="centerX" id="WeC-jI-m2B"/>
+                                    <constraint firstItem="A89-XY-SPZ" firstAttribute="centerX" secondItem="x5J-S1-8oZ" secondAttribute="centerX" id="dlK-Q5-PQq"/>
+                                    <constraint firstItem="A89-XY-SPZ" firstAttribute="top" secondItem="Za9-Sy-NH9" secondAttribute="bottom" constant="20" id="lvu-RK-qP6"/>
+                                    <constraint firstItem="Za9-Sy-NH9" firstAttribute="centerY" secondItem="x5J-S1-8oZ" secondAttribute="centerY" id="m6l-4F-Lmd"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZKN-Qo-FzK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="x5J-S1-8oZ" firstAttribute="leading" secondItem="ZKN-Qo-FzK" secondAttribute="leading" id="2uD-xu-1yV"/>
+                            <constraint firstItem="x5J-S1-8oZ" firstAttribute="top" secondItem="fO8-rd-Yc4" secondAttribute="top" id="A28-UG-GZz"/>
+                            <constraint firstAttribute="bottom" secondItem="x5J-S1-8oZ" secondAttribute="bottom" id="Bro-vm-vpW"/>
+                            <constraint firstItem="OyA-PR-dqg" firstAttribute="leading" secondItem="ZKN-Qo-FzK" secondAttribute="leading" id="CQd-AY-4r5"/>
+                            <constraint firstAttribute="trailing" secondItem="x5J-S1-8oZ" secondAttribute="trailing" id="NN1-dD-EIA"/>
+                            <constraint firstItem="OyA-PR-dqg" firstAttribute="trailing" secondItem="ZKN-Qo-FzK" secondAttribute="trailing" id="UKk-0J-IvF"/>
+                            <constraint firstItem="OyA-PR-dqg" firstAttribute="top" secondItem="fO8-rd-Yc4" secondAttribute="top" id="Y7p-oc-xyU"/>
+                            <constraint firstAttribute="bottom" secondItem="OyA-PR-dqg" secondAttribute="bottom" id="qtL-b4-hPF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="containerView" destination="x5J-S1-8oZ" id="KOo-Ts-qgI"/>
+                        <outlet property="itemImageView" destination="OyA-PR-dqg" id="wvi-01-FwE"/>
+                        <outlet property="nameLabel" destination="Za9-Sy-NH9" id="wfi-Oc-yv4"/>
+                        <outlet property="priceLabel" destination="A89-XY-SPZ" id="eHl-3m-tKQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="45e-3c-6Qm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="914.49275362318849" y="87.723214285714278"/>
+        </scene>
     </scenes>
+    <designables>
+        <designable name="A89-XY-SPZ">
+            <size key="intrinsicContentSize" width="55.5" height="36"/>
+        </designable>
+        <designable name="Za9-Sy-NH9">
+            <size key="intrinsicContentSize" width="143" height="35"/>
+        </designable>
+    </designables>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

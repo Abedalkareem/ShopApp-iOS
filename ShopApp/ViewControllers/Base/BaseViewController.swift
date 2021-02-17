@@ -9,6 +9,17 @@ import UIKit
 
 class BaseViewController: UIViewController {
 
+  var isBarTranslucent: Bool {
+    get {
+      navigationController?.navigationBar.isTranslucent ?? false
+    }
+    set {
+      navigationController?.navigationBar.isTranslucent = newValue
+    }
+  }
+  
+
+  
   // MARK: - ViewController lifecycle
 
   override func viewDidLoad() {

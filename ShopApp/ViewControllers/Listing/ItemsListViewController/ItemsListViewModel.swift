@@ -29,6 +29,8 @@ class ItemsListViewModel: ViewModelType, Loadable, ErrorEmitable {
   
   private let services: ListingServices
   
+  // MARK: - init
+
   init(services: ListingServices) {
     self.services = services
     

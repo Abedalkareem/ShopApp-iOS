@@ -65,6 +65,8 @@
 		5595DAA425DD849D00EF8116 /* ListItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5595DAA225DD849D00EF8116 /* ListItemTableViewCell.xib */; };
 		5595DAAC25DD897900EF8116 /* UIImageView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595DAAB25DD897900EF8116 /* UIImageView+Helpers.swift */; };
 		5595DAB125DD8F1400EF8116 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595DAB025DD8F1400EF8116 /* CardView.swift */; };
+		5595DAB625DD91F600EF8116 /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595DAB525DD91F600EF8116 /* ItemDetailsViewController.swift */; };
+		5595DABF25DD92DF00EF8116 /* ItemDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595DABE25DD92DF00EF8116 /* ItemDetailsViewModel.swift */; };
 		856D03B80DA5368760DD24E9 /* Pods_ShopAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5D55A50D32321A3F6A6179 /* Pods_ShopAppTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -149,6 +151,8 @@
 		5595DAA225DD849D00EF8116 /* ListItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListItemTableViewCell.xib; sourceTree = "<group>"; };
 		5595DAAB25DD897900EF8116 /* UIImageView+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Helpers.swift"; sourceTree = "<group>"; };
 		5595DAB025DD8F1400EF8116 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5595DAB525DD91F600EF8116 /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
+		5595DABE25DD92DF00EF8116 /* ItemDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewModel.swift; sourceTree = "<group>"; };
 		82E26559FE780C9BDBEFCF12 /* Pods-ShopApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopApp.release.xcconfig"; path = "Target Support Files/Pods-ShopApp/Pods-ShopApp.release.xcconfig"; sourceTree = "<group>"; };
 		9822C3598C2126E11A10342E /* Pods-ShopAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ShopAppTests/Pods-ShopAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA5D55A50D32321A3F6A6179 /* Pods_ShopAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -508,6 +512,7 @@
 			isa = PBXGroup;
 			children = (
 				5595DA7E25DD763400EF8116 /* ItemsListViewController */,
+				5595DABA25DD91FB00EF8116 /* ItemDetailsViewController */,
 			);
 			path = Listing;
 			sourceTree = "<group>";
@@ -529,6 +534,15 @@
 				5595DAA225DD849D00EF8116 /* ListItemTableViewCell.xib */,
 			);
 			path = ListItemTableViewCell;
+			sourceTree = "<group>";
+		};
+		5595DABA25DD91FB00EF8116 /* ItemDetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5595DAB525DD91F600EF8116 /* ItemDetailsViewController.swift */,
+				5595DABE25DD92DF00EF8116 /* ItemDetailsViewModel.swift */,
+			);
+			path = ItemDetailsViewController;
 			sourceTree = "<group>";
 		};
 		EB3656A220121504FC027303 /* Pods */ = {
@@ -805,6 +819,7 @@
 			files = (
 				5595D9C625DD5D8200EF8116 /* ListItem.swift in Sources */,
 				5595D9EE25DD603F00EF8116 /* MainViewModelsAssembly.swift in Sources */,
+				5595DABF25DD92DF00EF8116 /* ItemDetailsViewModel.swift in Sources */,
 				5595DAA325DD849D00EF8116 /* ListItemTableViewCell.swift in Sources */,
 				5595D94925DD50F500EF8116 /* Theme.swift in Sources */,
 				5595D90A25DD4FBD00EF8116 /* IntroViewController.swift in Sources */,
@@ -843,6 +858,7 @@
 				5595D95125DD514200EF8116 /* Constants.swift in Sources */,
 				5595D9B225DD5AB400EF8116 /* ListingEndPoints.swift in Sources */,
 				5595DA0A25DD623600EF8116 /* ViewModelType.swift in Sources */,
+				5595DAB625DD91F600EF8116 /* ItemDetailsViewController.swift in Sources */,
 				5595D9D025DD5E8C00EF8116 /* Fetcher.swift in Sources */,
 				5595DA1425DD626E00EF8116 /* ErrorEmitable.swift in Sources */,
 				5595DA8025DD764F00EF8116 /* ItemsListViewController.swift in Sources */,

@@ -11,5 +11,6 @@ import SwinjectAutoregistration
 class MainViewModelsAssembly: Assembly {
   func assemble(container: Container) {
     container.autoregister(ItemsListViewModel.self, initializer: ItemsListViewModel .init)
+    container.autoregister(ItemDetailsViewModel.self, initializer: ItemDetailsViewModel .init)
   }
 }

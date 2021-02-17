@@ -27,6 +27,7 @@ class ItemsListViewController: BaseViewModelController<ItemsListViewModel> {
   
   private func setup() {
     title = "items_list_screen_title".localized
+    isBarTranslucent = false
     
     addBarButton(image: .shoppingCart, selector: #selector(showMyCart), buttonPosition: .right)
     addBarButton(image: .filter, selector: #selector(showFilter), buttonPosition: .left)
@@ -63,7 +64,8 @@ class ItemsListViewController: BaseViewModelController<ItemsListViewModel> {
   // MARK: - Observers
 
   private func showDetailsController(with item: ListItemViewModel) {
-    print(item.name)
+    let controller = ItemDetailsViewController.instance(item: item)
+    show(controller, sender: nil)
   }
   
   // MARK: - Actions
