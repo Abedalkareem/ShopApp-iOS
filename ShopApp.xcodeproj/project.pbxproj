@@ -43,6 +43,13 @@
 		5595DA1425DD626E00EF8116 /* ErrorEmitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595DA1325DD626E00EF8116 /* ErrorEmitable.swift */; };
 		5595DA1D25DD62C800EF8116 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595DA1C25DD62C800EF8116 /* BaseViewController.swift */; };
 		5595DA2225DD62F200EF8116 /* BaseViewModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595DA2125DD62F200EF8116 /* BaseViewModelController.swift */; };
+		5595DA2A25DD664A00EF8116 /* UIViewController+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595DA2925DD664A00EF8116 /* UIViewController+Helpers.swift */; };
+		5595DA3225DD669600EF8116 /* UIView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595DA3125DD669600EF8116 /* UIView+Helpers.swift */; };
+		5595DA3725DD673800EF8116 /* String+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595DA3625DD673700EF8116 /* String+Helpers.swift */; };
+		5595DA3D25DD675300EF8116 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595DA3C25DD675300EF8116 /* UIView+Layout.swift */; };
+		5595DA4225DD676900EF8116 /* UIImage+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595DA4125DD676900EF8116 /* UIImage+Helpers.swift */; };
+		5595DA4A25DD678500EF8116 /* UITableView+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595DA4925DD678500EF8116 /* UITableView+Helpers.swift */; };
+		5595DA4F25DD67A500EF8116 /* StoryboardUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595DA4E25DD67A500EF8116 /* StoryboardUtil.swift */; };
 		856D03B80DA5368760DD24E9 /* Pods_ShopAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5D55A50D32321A3F6A6179 /* Pods_ShopAppTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -105,6 +112,13 @@
 		5595DA1325DD626E00EF8116 /* ErrorEmitable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorEmitable.swift; sourceTree = "<group>"; };
 		5595DA1C25DD62C800EF8116 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		5595DA2125DD62F200EF8116 /* BaseViewModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModelController.swift; sourceTree = "<group>"; };
+		5595DA2925DD664A00EF8116 /* UIViewController+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Helpers.swift"; sourceTree = "<group>"; };
+		5595DA3125DD669600EF8116 /* UIView+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Helpers.swift"; sourceTree = "<group>"; };
+		5595DA3625DD673700EF8116 /* String+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Helpers.swift"; sourceTree = "<group>"; };
+		5595DA3C25DD675300EF8116 /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		5595DA4125DD676900EF8116 /* UIImage+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Helpers.swift"; sourceTree = "<group>"; };
+		5595DA4925DD678500EF8116 /* UITableView+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Helpers.swift"; sourceTree = "<group>"; };
+		5595DA4E25DD67A500EF8116 /* StoryboardUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardUtil.swift; sourceTree = "<group>"; };
 		82E26559FE780C9BDBEFCF12 /* Pods-ShopApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopApp.release.xcconfig"; path = "Target Support Files/Pods-ShopApp/Pods-ShopApp.release.xcconfig"; sourceTree = "<group>"; };
 		9822C3598C2126E11A10342E /* Pods-ShopAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ShopAppTests/Pods-ShopAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA5D55A50D32321A3F6A6179 /* Pods_ShopAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -234,6 +248,7 @@
 				5595D97225DD540500EF8116 /* Extensions */,
 				5595D94725DD50DB00EF8116 /* Constants */,
 				5595D99325DD594000EF8116 /* Obfuscator.swift */,
+				5595DA4E25DD67A500EF8116 /* StoryboardUtil.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -365,6 +380,11 @@
 		5595D97225DD540500EF8116 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				5595DA3B25DD674A00EF8116 /* UIView */,
+				5595DA2925DD664A00EF8116 /* UIViewController+Helpers.swift */,
+				5595DA3625DD673700EF8116 /* String+Helpers.swift */,
+				5595DA4125DD676900EF8116 /* UIImage+Helpers.swift */,
+				5595DA4925DD678500EF8116 /* UITableView+Helpers.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -415,6 +435,15 @@
 				5595DA2125DD62F200EF8116 /* BaseViewModelController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		5595DA3B25DD674A00EF8116 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				5595DA3125DD669600EF8116 /* UIView+Helpers.swift */,
+				5595DA3C25DD675300EF8116 /* UIView+Layout.swift */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 		EB3656A220121504FC027303 /* Pods */ = {
@@ -692,20 +721,27 @@
 				5595D94925DD50F500EF8116 /* Theme.swift in Sources */,
 				5595D90A25DD4FBD00EF8116 /* ViewController.swift in Sources */,
 				5595D99425DD594000EF8116 /* Obfuscator.swift in Sources */,
+				5595DA4A25DD678500EF8116 /* UITableView+Helpers.swift in Sources */,
 				5595DA1D25DD62C800EF8116 /* BaseViewController.swift in Sources */,
+				5595DA4F25DD67A500EF8116 /* StoryboardUtil.swift in Sources */,
+				5595DA4225DD676900EF8116 /* UIImage+Helpers.swift in Sources */,
 				5595D9F325DD605D00EF8116 /* ViewModelsAssembly.swift in Sources */,
 				5595D98F25DD58DC00EF8116 /* EndPoint.swift in Sources */,
 				5595D9C125DD5C2200EF8116 /* Result.swift in Sources */,
 				5595D98A25DD58B800EF8116 /* FetcherType.swift in Sources */,
+				5595DA3225DD669600EF8116 /* UIView+Helpers.swift in Sources */,
 				5595DA0F25DD625200EF8116 /* Loadable.swift in Sources */,
+				5595DA2A25DD664A00EF8116 /* UIViewController+Helpers.swift in Sources */,
 				5595D90625DD4FBD00EF8116 /* AppDelegate.swift in Sources */,
 				5595D9BC25DD5B6F00EF8116 /* ListingServices.swift in Sources */,
 				5595D98325DD589E00EF8116 /* NetworkingType.swift in Sources */,
+				5595DA3D25DD675300EF8116 /* UIView+Layout.swift in Sources */,
 				5595D9CB25DD5E6300EF8116 /* HttpClient.swift in Sources */,
 				5595D9D725DD5FB800EF8116 /* Injected.swift in Sources */,
 				5595D9E125DD5FE700EF8116 /* CommonAssembly.swift in Sources */,
 				5595D9E625DD5FF700EF8116 /* ServicesAssembly.swift in Sources */,
 				5595D95625DD520800EF8116 /* AppImages.swift in Sources */,
+				5595DA3725DD673800EF8116 /* String+Helpers.swift in Sources */,
 				5595DA2225DD62F200EF8116 /* BaseViewModelController.swift in Sources */,
 				5595D9B725DD5B3700EF8116 /* BaseServices.swift in Sources */,
 				5595D95125DD514200EF8116 /* Constants.swift in Sources */,
@@ -902,6 +938,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H3MRF55H66;
 				INFOPLIST_FILE = "$(SRCROOT)/ShopApp/SupportFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -922,6 +959,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H3MRF55H66;
 				INFOPLIST_FILE = "$(SRCROOT)/ShopApp/SupportFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
