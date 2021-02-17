@@ -1,5 +1,5 @@
 //
-//  ShopAppUITests.swift
+//  IntroScreenUITests.swift
 //  ShopAppUITests
 //
 //  Created by abedalkareem omreyh on 17/02/2021.
@@ -7,7 +7,7 @@
 
 import XCTest
 
-class ShopAppUITests: XCTestCase {
+class IntroScreenUITests: BaseUITests {
   
   override func setUpWithError() throws {
     continueAfterFailure = false
@@ -17,19 +17,20 @@ class ShopAppUITests: XCTestCase {
 
   }
   
-  func testExample() throws {
-    // UI tests must launch the application that they test.
-    let app = XCUIApplication()
+  func testOpeningTheListScreen() throws {
     app.launch()
     
-    // Use recording to get started writing UI tests.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    let introScreenExpectation = self.expectation(description: "failed to load items list view controller to show")
+
+    app.staticTexts["intro_screen_button".localized].tap()
     
-//    XCUIApplication().staticTexts["Shop now !"].tap()
-////    XCUIApplication().
-//
-    XCUIApplication().buttons["Shop now !"].tap()
+    DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+      introScreenExpectation.fulfill()
+    }
     
+    waitForExpectations(timeout: 3)
+
+    XCTAssertTrue(app.isDisplayingItemsListViewController)
   }
   
 }

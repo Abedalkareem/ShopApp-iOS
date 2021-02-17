@@ -5,4 +5,17 @@
 //  Created by abedalkareem omreyh on 17/02/2021.
 //
 
-import Foundation
+import XCTest
+
+class BaseUITests: XCTestCase {
+
+  var app: XCUIApplication!
+
+  override func setUp() {
+    super.setUp()
+    
+    app = XCUIApplication()
+    app.launchArguments = ["NoAnimations"]
+  }
+  
+}

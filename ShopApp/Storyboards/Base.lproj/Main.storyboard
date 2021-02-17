@@ -24,6 +24,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <accessibility key="accessibilityConfiguration" identifier="ItemsListViewController"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eps-x2-QjQ" secondAttribute="trailing" id="BeP-tv-L62"/>
                             <constraint firstItem="eps-x2-QjQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="Kkh-pn-QJY"/>
@@ -77,6 +78,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZKN-Qo-FzK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <accessibility key="accessibilityConfiguration" identifier="ItemDetailsViewController"/>
                         <constraints>
                             <constraint firstItem="x5J-S1-8oZ" firstAttribute="leading" secondItem="ZKN-Qo-FzK" secondAttribute="leading" id="2uD-xu-1yV"/>
                             <constraint firstItem="x5J-S1-8oZ" firstAttribute="top" secondItem="fO8-rd-Yc4" secondAttribute="top" id="A28-UG-GZz"/>

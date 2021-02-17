@@ -12,7 +12,6 @@
         <!--Intro View Controller-->
         <scene sceneID="PE0-fk-dz6">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fhE-PO-Zgr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="xd7-cd-vpt" customClass="IntroViewController" customModule="ShopApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H2e-lr-dz6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -35,7 +34,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ur-7r-xID" customClass="AppLabel" customModule="ShopApp" customModuleProvider="target">
-                                <rect key="frame" x="50" y="484" width="314" height="24"/>
+                                <rect key="frame" x="50" y="484" width="314" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -44,7 +43,8 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNE-Tp-U63" customClass="AppButton" customModule="ShopApp" customModuleProvider="target">
-                                <rect key="frame" x="50" y="792" width="314" height="30"/>
+                                <rect key="frame" x="50" y="772" width="314" height="50"/>
+                                <accessibility key="accessibilityConfiguration" identifier="button"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Button"/>
                                 <userDefinedRuntimeAttributes>
@@ -78,19 +78,20 @@
                         <outlet property="shopNowButton" destination="wNE-Tp-U63" id="Qyw-ep-Q7E"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fhE-PO-Zgr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="122" y="-292"/>
         </scene>
     </scenes>
     <designables>
         <designable name="3Ur-7r-xID">
-            <size key="intrinsicContentSize" width="48" height="24"/>
+            <size key="intrinsicContentSize" width="465.5" height="24"/>
         </designable>
         <designable name="wNE-Tp-U63">
-            <size key="intrinsicContentSize" width="46" height="30"/>
+            <size key="intrinsicContentSize" width="104" height="36"/>
         </designable>
         <designable name="waI-hX-sI5">
-            <size key="intrinsicContentSize" width="64" height="30"/>
+            <size key="intrinsicContentSize" width="114" height="30"/>
         </designable>
     </designables>
     <resources>
