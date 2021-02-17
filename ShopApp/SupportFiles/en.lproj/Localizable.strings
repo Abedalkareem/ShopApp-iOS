@@ -5,3 +5,8 @@
   Created by abedalkareem omreyh on 17/02/2021.
   
 */
+
+// MARK: - Error messages
+
+"generic_something_went_wrong_msg" = "Something went wrong";
+"json_serializing_failure" = "Serializing failure";

@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+enum Images: String {
+  case image
+}
