@@ -38,6 +38,9 @@
 		5595D9E625DD5FF700EF8116 /* ServicesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595D9E525DD5FF600EF8116 /* ServicesAssembly.swift */; };
 		5595D9EE25DD603F00EF8116 /* MainViewModelsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595D9ED25DD603F00EF8116 /* MainViewModelsAssembly.swift */; };
 		5595D9F325DD605D00EF8116 /* ViewModelsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595D9F225DD605D00EF8116 /* ViewModelsAssembly.swift */; };
+		5595DA0A25DD623600EF8116 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595DA0925DD623600EF8116 /* ViewModelType.swift */; };
+		5595DA0F25DD625200EF8116 /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595DA0E25DD625200EF8116 /* Loadable.swift */; };
+		5595DA1425DD626E00EF8116 /* ErrorEmitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595DA1325DD626E00EF8116 /* ErrorEmitable.swift */; };
 		856D03B80DA5368760DD24E9 /* Pods_ShopAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5D55A50D32321A3F6A6179 /* Pods_ShopAppTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +98,9 @@
 		5595D9E525DD5FF600EF8116 /* ServicesAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesAssembly.swift; sourceTree = "<group>"; };
 		5595D9ED25DD603F00EF8116 /* MainViewModelsAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelsAssembly.swift; sourceTree = "<group>"; };
 		5595D9F225DD605D00EF8116 /* ViewModelsAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelsAssembly.swift; sourceTree = "<group>"; };
+		5595DA0925DD623600EF8116 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		5595DA0E25DD625200EF8116 /* Loadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
+		5595DA1325DD626E00EF8116 /* ErrorEmitable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorEmitable.swift; sourceTree = "<group>"; };
 		82E26559FE780C9BDBEFCF12 /* Pods-ShopApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopApp.release.xcconfig"; path = "Target Support Files/Pods-ShopApp/Pods-ShopApp.release.xcconfig"; sourceTree = "<group>"; };
 		9822C3598C2126E11A10342E /* Pods-ShopAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ShopAppTests/Pods-ShopAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA5D55A50D32321A3F6A6179 /* Pods_ShopAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -269,6 +275,7 @@
 		5595D94525DD509E00EF8116 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				5595DA0825DD622400EF8116 /* ViewModelType */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -384,6 +391,16 @@
 				5595D9E525DD5FF600EF8116 /* ServicesAssembly.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		5595DA0825DD622400EF8116 /* ViewModelType */ = {
+			isa = PBXGroup;
+			children = (
+				5595DA0925DD623600EF8116 /* ViewModelType.swift */,
+				5595DA0E25DD625200EF8116 /* Loadable.swift */,
+				5595DA1325DD626E00EF8116 /* ErrorEmitable.swift */,
+			);
+			path = ViewModelType;
 			sourceTree = "<group>";
 		};
 		EB3656A220121504FC027303 /* Pods */ = {
@@ -665,6 +682,7 @@
 				5595D98F25DD58DC00EF8116 /* EndPoint.swift in Sources */,
 				5595D9C125DD5C2200EF8116 /* Result.swift in Sources */,
 				5595D98A25DD58B800EF8116 /* FetcherType.swift in Sources */,
+				5595DA0F25DD625200EF8116 /* Loadable.swift in Sources */,
 				5595D90625DD4FBD00EF8116 /* AppDelegate.swift in Sources */,
 				5595D9BC25DD5B6F00EF8116 /* ListingServices.swift in Sources */,
 				5595D98325DD589E00EF8116 /* NetworkingType.swift in Sources */,
@@ -676,7 +694,9 @@
 				5595D9B725DD5B3700EF8116 /* BaseServices.swift in Sources */,
 				5595D95125DD514200EF8116 /* Constants.swift in Sources */,
 				5595D9B225DD5AB400EF8116 /* ListingEndPoints.swift in Sources */,
+				5595DA0A25DD623600EF8116 /* ViewModelType.swift in Sources */,
 				5595D9D025DD5E8C00EF8116 /* Fetcher.swift in Sources */,
+				5595DA1425DD626E00EF8116 /* ErrorEmitable.swift in Sources */,
 				5595D99925DD597300EF8116 /* Keys.swift in Sources */,
 				5595D9DC25DD5FD000EF8116 /* Assembler.swift in Sources */,
 			);
