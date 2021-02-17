@@ -10,3 +10,9 @@
 
 "generic_something_went_wrong_msg" = "Something went wrong";
 "json_serializing_failure" = "Serializing failure";
+
+// MARK: - Intro screen
+
+"intro_screen_button" = "Shop now !";
+"intro_screen_title" = "Shop App";
+"intro_screen_details" = "Find properties, cars, jobs or items for sale in any city.";

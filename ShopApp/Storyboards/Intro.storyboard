@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xd7-cd-vpt">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Intro View Controller-->
+        <scene sceneID="PE0-fk-dz6">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fhE-PO-Zgr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="xd7-cd-vpt" customClass="IntroViewController" customModule="ShopApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="H2e-lr-dz6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RHM-fB-DS1" customClass="IntroView" customModule="ShopApp" customModuleProvider="target">
+                                <rect key="frame" x="50" y="172" width="314" height="200"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="RHM-fB-DS1" secondAttribute="height" multiplier="157:100" id="z6r-Eg-5qC"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="waI-hX-sI5" customClass="AppLabel" customModule="ShopApp" customModuleProvider="target">
+                                <rect key="frame" x="50" y="438" width="314" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizeKey" value="intro_screen_title"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ur-7r-xID" customClass="AppLabel" customModule="ShopApp" customModuleProvider="target">
+                                <rect key="frame" x="50" y="484" width="314" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizeKey" value="intro_screen_details"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNE-Tp-U63" customClass="AppButton" customModule="ShopApp" customModuleProvider="target">
+                                <rect key="frame" x="50" y="792" width="314" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="localizeKey" value="intro_screen_button"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="shopNowWithSender:" destination="xd7-cd-vpt" eventType="touchUpInside" id="trQ-zl-PSo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Wao-O3-AHE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RHM-fB-DS1" firstAttribute="width" secondItem="RHM-fB-DS1" secondAttribute="height" multiplier="157:100" id="1Ea-QL-o4e"/>
+                            <constraint firstItem="waI-hX-sI5" firstAttribute="centerX" secondItem="H2e-lr-dz6" secondAttribute="centerX" id="7C8-4C-s3J"/>
+                            <constraint firstItem="RHM-fB-DS1" firstAttribute="top" secondItem="Wao-O3-AHE" secondAttribute="top" constant="128" id="GWx-TK-H87"/>
+                            <constraint firstItem="waI-hX-sI5" firstAttribute="top" secondItem="RHM-fB-DS1" secondAttribute="bottom" constant="66" id="Sn4-R9-3Ny"/>
+                            <constraint firstItem="3Ur-7r-xID" firstAttribute="top" secondItem="waI-hX-sI5" secondAttribute="bottom" constant="16" id="WFd-sk-nQE"/>
+                            <constraint firstItem="Wao-O3-AHE" firstAttribute="bottom" secondItem="wNE-Tp-U63" secondAttribute="bottom" constant="40" id="b7k-f6-xIc"/>
+                            <constraint firstItem="wNE-Tp-U63" firstAttribute="centerX" secondItem="H2e-lr-dz6" secondAttribute="centerX" id="czh-UR-5Jc"/>
+                            <constraint firstItem="3Ur-7r-xID" firstAttribute="centerX" secondItem="H2e-lr-dz6" secondAttribute="centerX" id="dTD-lB-EAb"/>
+                            <constraint firstItem="3Ur-7r-xID" firstAttribute="leading" secondItem="Wao-O3-AHE" secondAttribute="leading" constant="50" id="hc7-Hk-Inq"/>
+                            <constraint firstItem="RHM-fB-DS1" firstAttribute="centerX" secondItem="H2e-lr-dz6" secondAttribute="centerX" id="iHa-Cm-aL4"/>
+                            <constraint firstItem="waI-hX-sI5" firstAttribute="leading" secondItem="Wao-O3-AHE" secondAttribute="leading" constant="50" id="qEa-GW-gma"/>
+                            <constraint firstItem="wNE-Tp-U63" firstAttribute="leading" secondItem="Wao-O3-AHE" secondAttribute="leading" constant="50" id="sjH-BO-7J4"/>
+                            <constraint firstItem="RHM-fB-DS1" firstAttribute="leading" secondItem="Wao-O3-AHE" secondAttribute="leading" constant="50" id="vta-JU-WoS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="introView" destination="RHM-fB-DS1" id="3ql-zC-wVf"/>
+                        <outlet property="shopNowButton" destination="wNE-Tp-U63" id="Qyw-ep-Q7E"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="122" y="-292"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="3Ur-7r-xID">
+            <size key="intrinsicContentSize" width="48" height="24"/>
+        </designable>
+        <designable name="wNE-Tp-U63">
+            <size key="intrinsicContentSize" width="46" height="30"/>
+        </designable>
+        <designable name="waI-hX-sI5">
+            <size key="intrinsicContentSize" width="64" height="30"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
