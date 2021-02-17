@@ -41,6 +41,8 @@
 		5595DA0A25DD623600EF8116 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595DA0925DD623600EF8116 /* ViewModelType.swift */; };
 		5595DA0F25DD625200EF8116 /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595DA0E25DD625200EF8116 /* Loadable.swift */; };
 		5595DA1425DD626E00EF8116 /* ErrorEmitable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595DA1325DD626E00EF8116 /* ErrorEmitable.swift */; };
+		5595DA1D25DD62C800EF8116 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595DA1C25DD62C800EF8116 /* BaseViewController.swift */; };
+		5595DA2225DD62F200EF8116 /* BaseViewModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595DA2125DD62F200EF8116 /* BaseViewModelController.swift */; };
 		856D03B80DA5368760DD24E9 /* Pods_ShopAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5D55A50D32321A3F6A6179 /* Pods_ShopAppTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +103,8 @@
 		5595DA0925DD623600EF8116 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
 		5595DA0E25DD625200EF8116 /* Loadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
 		5595DA1325DD626E00EF8116 /* ErrorEmitable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorEmitable.swift; sourceTree = "<group>"; };
+		5595DA1C25DD62C800EF8116 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		5595DA2125DD62F200EF8116 /* BaseViewModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModelController.swift; sourceTree = "<group>"; };
 		82E26559FE780C9BDBEFCF12 /* Pods-ShopApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopApp.release.xcconfig"; path = "Target Support Files/Pods-ShopApp/Pods-ShopApp.release.xcconfig"; sourceTree = "<group>"; };
 		9822C3598C2126E11A10342E /* Pods-ShopAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ShopAppTests/Pods-ShopAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA5D55A50D32321A3F6A6179 /* Pods_ShopAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -217,6 +221,7 @@
 		5595D93F25DD506500EF8116 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				5595DA1B25DD62B300EF8116 /* Base */,
 				5595D90925DD4FBD00EF8116 /* ViewController.swift */,
 			);
 			path = ViewControllers;
@@ -401,6 +406,15 @@
 				5595DA1325DD626E00EF8116 /* ErrorEmitable.swift */,
 			);
 			path = ViewModelType;
+			sourceTree = "<group>";
+		};
+		5595DA1B25DD62B300EF8116 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5595DA1C25DD62C800EF8116 /* BaseViewController.swift */,
+				5595DA2125DD62F200EF8116 /* BaseViewModelController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		EB3656A220121504FC027303 /* Pods */ = {
@@ -678,6 +692,7 @@
 				5595D94925DD50F500EF8116 /* Theme.swift in Sources */,
 				5595D90A25DD4FBD00EF8116 /* ViewController.swift in Sources */,
 				5595D99425DD594000EF8116 /* Obfuscator.swift in Sources */,
+				5595DA1D25DD62C800EF8116 /* BaseViewController.swift in Sources */,
 				5595D9F325DD605D00EF8116 /* ViewModelsAssembly.swift in Sources */,
 				5595D98F25DD58DC00EF8116 /* EndPoint.swift in Sources */,
 				5595D9C125DD5C2200EF8116 /* Result.swift in Sources */,
@@ -691,6 +706,7 @@
 				5595D9E125DD5FE700EF8116 /* CommonAssembly.swift in Sources */,
 				5595D9E625DD5FF700EF8116 /* ServicesAssembly.swift in Sources */,
 				5595D95625DD520800EF8116 /* AppImages.swift in Sources */,
+				5595DA2225DD62F200EF8116 /* BaseViewModelController.swift in Sources */,
 				5595D9B725DD5B3700EF8116 /* BaseServices.swift in Sources */,
 				5595D95125DD514200EF8116 /* Constants.swift in Sources */,
 				5595D9B225DD5AB400EF8116 /* ListingEndPoints.swift in Sources */,
