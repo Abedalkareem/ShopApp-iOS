@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1819DEC7C60B4699A4C65407 /* Pods_ShopApp_ShopAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F15733BA509D7F11581E816E /* Pods_ShopApp_ShopAppUITests.framework */; };
+		413F9AE91160E485706FD906 /* Pods_ShopApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E6222FF3BC22D1BB276329 /* Pods_ShopApp.framework */; };
 		5595D90625DD4FBD00EF8116 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595D90525DD4FBD00EF8116 /* AppDelegate.swift */; };
 		5595D90A25DD4FBD00EF8116 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595D90925DD4FBD00EF8116 /* ViewController.swift */; };
 		5595D90D25DD4FBD00EF8116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5595D90B25DD4FBD00EF8116 /* Main.storyboard */; };
@@ -18,6 +20,7 @@
 		5595D95125DD514200EF8116 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595D95025DD514200EF8116 /* Constants.swift */; };
 		5595D95625DD520800EF8116 /* AppImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5595D95525DD520800EF8116 /* AppImages.swift */; };
 		5595D96825DD532300EF8116 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5595D96A25DD532300EF8116 /* Localizable.strings */; };
+		856D03B80DA5368760DD24E9 /* Pods_ShopAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5D55A50D32321A3F6A6179 /* Pods_ShopAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1298A18FBDC8B852496CFF64 /* Pods-ShopApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopApp.debug.xcconfig"; path = "Target Support Files/Pods-ShopApp/Pods-ShopApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5595D90225DD4FBD00EF8116 /* ShopApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5595D90525DD4FBD00EF8116 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5595D90925DD4FBD00EF8116 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +59,14 @@
 		5595D95025DD514200EF8116 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5595D95525DD520800EF8116 /* AppImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImages.swift; sourceTree = "<group>"; };
 		5595D96925DD532300EF8116 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		82E26559FE780C9BDBEFCF12 /* Pods-ShopApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopApp.release.xcconfig"; path = "Target Support Files/Pods-ShopApp/Pods-ShopApp.release.xcconfig"; sourceTree = "<group>"; };
+		9822C3598C2126E11A10342E /* Pods-ShopAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ShopAppTests/Pods-ShopAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA5D55A50D32321A3F6A6179 /* Pods_ShopAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA79963155305A5FE9A27289 /* Pods-ShopAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopAppTests.release.xcconfig"; path = "Target Support Files/Pods-ShopAppTests/Pods-ShopAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		BCC1BA9A50F00AC951534A7D /* Pods-ShopApp-ShopAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopApp-ShopAppUITests.release.xcconfig"; path = "Target Support Files/Pods-ShopApp-ShopAppUITests/Pods-ShopApp-ShopAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D2E6222FF3BC22D1BB276329 /* Pods_ShopApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F0F6D323696F854D246C1B /* Pods-ShopApp-ShopAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopApp-ShopAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ShopApp-ShopAppUITests/Pods-ShopApp-ShopAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F15733BA509D7F11581E816E /* Pods_ShopApp_ShopAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopApp_ShopAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413F9AE91160E485706FD906 /* Pods_ShopApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				856D03B80DA5368760DD24E9 /* Pods_ShopAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +90,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1819DEC7C60B4699A4C65407 /* Pods_ShopApp_ShopAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D3531E3218B853CA5207918 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2E6222FF3BC22D1BB276329 /* Pods_ShopApp.framework */,
+				F15733BA509D7F11581E816E /* Pods_ShopApp_ShopAppUITests.framework */,
+				AA5D55A50D32321A3F6A6179 /* Pods_ShopAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5595D8F925DD4FBD00EF8116 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +114,8 @@
 				5595D91B25DD4FC000EF8116 /* ShopAppTests */,
 				5595D92625DD4FC000EF8116 /* ShopAppUITests */,
 				5595D90325DD4FBD00EF8116 /* Products */,
+				EB3656A220121504FC027303 /* Pods */,
+				2D3531E3218B853CA5207918 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -289,6 +316,20 @@
 			path = DependencyInjection;
 			sourceTree = "<group>";
 		};
+		EB3656A220121504FC027303 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1298A18FBDC8B852496CFF64 /* Pods-ShopApp.debug.xcconfig */,
+				82E26559FE780C9BDBEFCF12 /* Pods-ShopApp.release.xcconfig */,
+				D2F0F6D323696F854D246C1B /* Pods-ShopApp-ShopAppUITests.debug.xcconfig */,
+				BCC1BA9A50F00AC951534A7D /* Pods-ShopApp-ShopAppUITests.release.xcconfig */,
+				9822C3598C2126E11A10342E /* Pods-ShopAppTests.debug.xcconfig */,
+				AA79963155305A5FE9A27289 /* Pods-ShopAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -296,9 +337,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5595D92C25DD4FC000EF8116 /* Build configuration list for PBXNativeTarget "ShopApp" */;
 			buildPhases = (
+				CEB399EF36D0F818E47C14E1 /* [CP] Check Pods Manifest.lock */,
 				5595D8FE25DD4FBD00EF8116 /* Sources */,
 				5595D8FF25DD4FBD00EF8116 /* Frameworks */,
 				5595D90025DD4FBD00EF8116 /* Resources */,
+				97AB0001352E4952CE368839 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -313,9 +356,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5595D92F25DD4FC000EF8116 /* Build configuration list for PBXNativeTarget "ShopAppTests" */;
 			buildPhases = (
+				4AB331F971A373D5E174DB4A /* [CP] Check Pods Manifest.lock */,
 				5595D91425DD4FC000EF8116 /* Sources */,
 				5595D91525DD4FC000EF8116 /* Frameworks */,
 				5595D91625DD4FC000EF8116 /* Resources */,
+				4E5D6CF385BEC237E777CCEC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -331,9 +376,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5595D93225DD4FC000EF8116 /* Build configuration list for PBXNativeTarget "ShopAppUITests" */;
 			buildPhases = (
+				079B6F5988B4AE46D671041E /* [CP] Check Pods Manifest.lock */,
 				5595D91F25DD4FC000EF8116 /* Sources */,
 				5595D92025DD4FC000EF8116 /* Frameworks */,
 				5595D92125DD4FC000EF8116 /* Resources */,
+				CC5D5D6A881C726251FF3702 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -414,6 +461,126 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		079B6F5988B4AE46D671041E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShopApp-ShopAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AB331F971A373D5E174DB4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShopAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E5D6CF385BEC237E777CCEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShopAppTests/Pods-ShopAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShopAppTests/Pods-ShopAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShopAppTests/Pods-ShopAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97AB0001352E4952CE368839 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShopApp/Pods-ShopApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShopApp/Pods-ShopApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShopApp/Pods-ShopApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC5D5D6A881C726251FF3702 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShopApp-ShopAppUITests/Pods-ShopApp-ShopAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShopApp-ShopAppUITests/Pods-ShopApp-ShopAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShopApp-ShopAppUITests/Pods-ShopApp-ShopAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEB399EF36D0F818E47C14E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShopApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5595D8FE25DD4FBD00EF8116 /* Sources */ = {
@@ -605,6 +772,7 @@
 		};
 		5595D92D25DD4FC000EF8116 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1298A18FBDC8B852496CFF64 /* Pods-ShopApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -624,6 +792,7 @@
 		};
 		5595D92E25DD4FC000EF8116 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E26559FE780C9BDBEFCF12 /* Pods-ShopApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -643,6 +812,7 @@
 		};
 		5595D93025DD4FC000EF8116 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9822C3598C2126E11A10342E /* Pods-ShopAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -665,6 +835,7 @@
 		};
 		5595D93125DD4FC000EF8116 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA79963155305A5FE9A27289 /* Pods-ShopAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -687,6 +858,7 @@
 		};
 		5595D93325DD4FC000EF8116 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2F0F6D323696F854D246C1B /* Pods-ShopApp-ShopAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -707,6 +879,7 @@
 		};
 		5595D93425DD4FC000EF8116 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCC1BA9A50F00AC951534A7D /* Pods-ShopApp-ShopAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
